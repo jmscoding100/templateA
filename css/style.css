@@ -1,0 +1,102 @@
+:root{
+    --font: "Dosis", sans-serif;
+    --prim:#C7D3DD;
+    --sec:#001C25;
+    --tret:#114B5F;
+    --grad:linear-gradient(
+        var(--tret), 
+        var(--prim) 85%
+    );
+}
+
+
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* classes */
+
+.banner-iamge{
+    height: 20vh;
+}
+
+
+
+.header-link{
+    color: var(--sec);
+}
+
+.header-link:hover{
+    color: var(--prim);
+    border: 1px solid var(--sec);
+    border-radius: 5px;
+}
+
+
+.h2-link:hover{
+    color: #00A7E1;
+    border: 1px solid var(--sec);
+    border-radius: 5px;
+}
+
+.footer-bottom{
+    color: white;
+}
+
+.footer-bottom:hover{
+    color: purple;
+}
+
+.footer-item{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.footer-item:hover{
+    color: purple;
+}
+
+
+.footer-top{
+    color: white;
+}
+
+.footer-top:hover{
+    color: purple;
+}
+
+.row{
+    padding: 10px;
+}
+
+/* ids */
+
+#header{
+    background-color: var(--tret);
+    background-image: var(--grad);
+    font-family: var(--font);
+}
+
+#footerSection1{
+    padding: 20px;
+    background-color: var(--tret);
+}
+
+#footerSection2{
+    padding-top: 0;
+    background-color: var(--tret);
+}
+
+#footerSection3{
+    padding: 20px;
+    background-color: var(--tret);
+}
+
+
+#searchForm{
+    color: black;
+}
