@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Scamazon</title>
 </head>
@@ -28,7 +29,9 @@
                         <nav class="nav justify-conent-end" id="headerNav">
                             <a href="#" class="nav-link header-link">Lorem.</a>
                             <a href="#" class="nav-link header-link">Quidem.</a>
-                            <a href="#" class="nav-link header-link">Accusantium.</a>
+                            <a href="#" class="nav-link header-link">
+                                <i class="bi bi-basket3-fill"></i><span class="d-none d-md-line">Accusantium.</span>
+                            </a>
                         </nav> 
                     </div>
                 </div>
@@ -93,7 +96,9 @@
                     </ul>
                     <form action="#" class="nav-form d-flex" role="search">
                         <input type="search" class="form-control me-2" aria-label="search">
-                        <button class="btn btn-outline-dark" type="submit">search</button>
+                        <button class="btn btn-outline-dark" type="submit"><i class="bi bi-search"></i>
+                            <span class="visually-hidden">search</span>
+                        </button>
                     </form>
                 </div>
                 </div>
@@ -104,7 +109,7 @@
         <!-- banner section -->
         <section class="section" id="bannerSection">
             <div class="container-fluid">
-                <img src="https://via.placeholder.com/50x50"alt="placeholder img" class="img-fluid image banner-iamge w-100" />
+                <img src="images/truck.jpeg"alt="placeholder img" class="img-fluid image banner-iamge w-100" />
                 
             </div>
         </section>
@@ -117,14 +122,20 @@
                             <header class="card-header">
                                 <h2 class="display-6">Lorem, ipsum.</h2>
                             </header>
-                            <img src="https://via.placeholder.com/50x50"alt="placeholder img" class="img-fluid image card-img" />
+                            <img src="images/headphones.jpeg"alt="placeholder img" class="img-fluid image card-img" />
                             <div class="card-body">
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, praesentium.</p>
                             </div>
                             <footer class="card-footer">
                                 <p class="card-text price">$19.99</p>
-                                <button class="btn btn-primary text-capitalize ">add to cart</button>
-                                <button class="btn btn-success text-capitalize">buy now</button>
+                                <button class="btn btn-primary text-capitalize">
+                                    <i class="bi bi-cart"></i>
+                                    add to cart
+                                </button>
+                                <button class="btn btn-success text-capitalize">
+                                    <i class="bi bi-tag"></i>
+                                    buy now
+                                </button>
                             </footer>
                         </div>
                     </div>
@@ -133,14 +144,20 @@
                             <header class="card-header">
                                 <h2 class="display-6">Lorem, ipsum.</h2>
                             </header>
-                            <img src="https://via.placeholder.com/50x50"alt="placeholder img" class="img-fluid image card-img" />
+                            <img src="images/kitchen.jpeg"alt="placeholder img" class="img-fluid image card-img" />
                             <div class="card-body">
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, praesentium.</p>
                             </div>
-                            <footer class="card-footer">
-                                <p class="card-text price">$19.99</p>
-                                <button class="btn btn-primary text-capitalize ">add to cart</button>
-                                <button class="btn btn-success text-capitalize">buy now</button>
+                            <footer class="card-footer pb-5">
+                                <p class="card-text price pt-3">$19.99</p>
+                                <button class="btn btn-primary text-capitalize mb-2">
+                                    <i class="bi bi-cart"></i>
+                                    add to cart
+                                </button>
+                                <button class="btn btn-success text-capitalize mb-">
+                                    <i class="bi bi-tag"></i>
+                                    buy now
+                                </button>
                             </footer>
                         </div>
                     </div>
@@ -149,14 +166,20 @@
                             <header class="card-header">
                                 <h2 class="display-6">Lorem, ipsum.</h2>
                             </header>
-                            <img src="https://via.placeholder.com/50x50"alt="placeholder img" class="img-fluid image card-img" />
+                            <img src="images/laptop.jpeg"alt="placeholder img" class="img-fluid image card-img" />
                             <div class="card-body">
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, praesentium.</p>
                             </div>
                             <footer class="card-footer">
                                 <p class="card-text price">$19.99</p>
-                                <button class="btn btn-primary text-capitalize ">add to cart</button>
-                                <button class="btn btn-success text-capitalize">buy now</button>
+                                <button class="btn btn-primary text-capitalize">
+                                    <i class="bi bi-cart"></i>
+                                    add to cart
+                                </button>
+                                <button class="btn btn-success text-capitalize">
+                                    <i class="bi bi-tag"></i>
+                                    buy now
+                                </button>
                             </footer>
                         </div>
                     </div>
@@ -165,14 +188,20 @@
                             <header class="card-header">
                                 <h2 class="display-6">Lorem, ipsum.</h2>
                             </header>
-                            <img src="https://via.placeholder.com/50x50"alt="placeholder img" class="img-fluid image card-img" />
+                            <img src="images/livingroom.jpeg"alt="placeholder img" class="img-fluid image card-img" />
                             <div class="card-body">
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, praesentium.</p>
                             </div>
                             <footer class="card-footer">
                                 <p class="card-text price">$19.99</p>
-                                <button class="btn btn-primary text-capitalize ">add to cart</button>
-                                <button class="btn btn-success text-capitalize">buy now</button>
+                                <button class="btn btn-primary text-capitalize">
+                                    <i class="bi bi-cart"></i>
+                                    add to cart
+                                </button>
+                                <button class="btn btn-success text-capitalize">
+                                    <i class="bi bi-tag"></i>
+                                    buy now
+                                </button>
                             </footer>
                         </div>
                     </div>
@@ -182,7 +211,7 @@
                     <div class="col-md-6">
                         <div class="item-iamge-div">
                             <a href="#">
-                                <img src="https://via.placeholder.com/50x50"alt="placeholder img" class="img-fluid image w-100 promo-image" />
+                                <img src="images/pool.jpeg"alt="placeholder img" class="img-fluid image w-100 promo-image" />
                                 
                             </a>
                         </div>
@@ -192,14 +221,20 @@
                             <header class="card-header">
                                 <h2 class="display-6">Lorem, ipsum.</h2>
                             </header>
-                            <img src="https://via.placeholder.com/50x50"alt="placeholder img" class="img-fluid image card-img" />
+                            <img src="images/livingroom.jpeg"alt="placeholder img" class="img-fluid image card-img" />
                             <div class="card-body">
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, praesentium.</p>
                             </div>
                             <footer class="card-footer">
                                 <p class="card-text price">$19.99</p>
-                                <button class="btn btn-primary text-capitalize ">add to cart</button>
-                                <button class="btn btn-success text-capitalize">buy now</button>
+                                <button class="btn btn-primary text-capitalize">
+                                    <i class="bi bi-cart"></i>
+                                    add to cart
+                                </button>
+                                <button class="btn btn-success text-capitalize">
+                                    <i class="bi bi-tag"></i>
+                                    buy now
+                                </button>
                             </footer>
                         </div>
                     </div>
@@ -208,14 +243,20 @@
                             <header class="card-header">
                                 <h2 class="display-6">Lorem, ipsum.</h2>
                             </header>
-                            <img src="https://via.placeholder.com/50x50"alt="placeholder img" class="img-fluid image card-img" />
+                            <img src="images/pets.jpeg"alt="placeholder img" class="img-fluid image card-img" />
                             <div class="card-body">
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, praesentium.</p>
                             </div>
                             <footer class="card-footer">
                                 <p class="card-text price">$19.99</p>
-                                <button class="btn btn-primary text-capitalize ">add to cart</button>
-                                <button class="btn btn-success text-capitalize">buy now</button>
+                                <button class="btn btn-primary text-capitalize">
+                                    <i class="bi bi-cart"></i>
+                                    add to cart
+                                </button>
+                                <button class="btn btn-success text-capitalize">
+                                    <i class="bi bi-tag"></i>
+                                    buy now
+                                </button>
                             </footer>
                         </div>
                     </div>
